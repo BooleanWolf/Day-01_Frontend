@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+body {
+    background-image: url('./img/pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.navbar-container {
+    position: relative;
+    padding: 10px;
+    height: 20vh;
+   
+}
+
+.navbar-elements {
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    right: 5px;
+    color: wheat;
+
+}
+
+li {
+  display: inline;  
+  padding-right: 20px;
+}
+
+.user-icon {
+    border-style: dashed;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+
+.boddy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.tummy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+
+
+.search-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.icons{
+    margin-top: 20px;
+    display: flex;
+    width: 450px;
+    flex-wrap: wrap;
+    font-family: 'La Belle Aurore', cursive;
+    color: white;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.GoogleText {
+    font-size: 90px;
+    font-family: 'Kenia', cursive;
+    color: aqua;
+}
+
+.search-bar input[type=text] {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    padding: 3px;
+}
